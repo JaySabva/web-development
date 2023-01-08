@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/risen-wang-20jX9b35r_M-unsplash.jpg);
+    }
+    .left{
+        position: absolute;
+        left: 70px;
+        top: 20px;
+        display: inline-block;
+    }
+    .left img{
+        width: 100px;
+        height: 100px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 28px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        color: white;
+        display: inline-block;
+        font-size: 22px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 8px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin: 0px 8px;
+        color: white;
+        background-color: black;
+        padding: 3px 12px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .contanier{
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 5px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .contanier h1{
+        text-align: center;
+    }
+    .contanier button{
+        display: block;
+        width: 103%;
+        margin: 15px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>
+                DAIICT GYM
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active" href="www.google.com">Home</a></li>
+                <li><a href="www.google.com">Fitness Calculator</a></li>
+                <li><a href="www.google.com">Contact us</a></li>
+                <li><a href="www.google.com">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="contanier">
+        <h1>Join The Gym</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
